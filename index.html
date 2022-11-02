@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="src/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1>My Library</h1>
+    </div>
+    <div id="container">
+        <div id="addBook">
+            <button></button>
+        </div>
+    </div>
+    <form id="addForm" action="" method="post">
+        <fieldset>
+            <label for="title">Title</label>
+            <input id="title" type="text" name="title">
+        </fieldset>
+        <fieldset>
+            <label for="author">Author</label>
+            <input id="author" type="text" name="author">
+        </fieldset>
+        <fieldset>
+            <label for="pages">Number of Pages</label>
+            <input id="pages" type="text" name="pages">
+        </fieldset>
+        <fieldset>
+            <label for="read">Have you read it?</label>
+            <input id="read" type="checkbox" name="read">
+        </fieldset>
+        <fieldset>
+            <input type="submit" id="addNewBook">
+        </fieldset>
+    </form>
+  </body>
+  <script type="module" src="src/script.js"></script>
+</html>
