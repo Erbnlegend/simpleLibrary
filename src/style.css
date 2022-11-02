@@ -48,7 +48,7 @@
 
 .card .delete {
     display: flex;
-    background-image: url('images/x-square.svg');
+    background-image: url('/images/x-square.svg');
     width: 25px;
     height: 25px;
     transition-duration: .3s;
@@ -71,7 +71,7 @@
     border: 1px solid rgba(0, 0, 0, 0.349);
     padding: 20px 30px;
     border-radius: 10px;
-    background-image: url('images/plus.svg');
+    background-image: url('/images/plus.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
